@@ -1,0 +1,264 @@
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+}
+.header-container {
+  display: flex;
+  width: 1440px;
+  height: 900px;
+  padding-top: 104px;
+  padding-left: 133px;
+  padding-right: 133px;
+  padding-bottom: 168px;
+  background-color: #f8f8f8;
+}
+.header-title {
+  margin-bottom: 53px;
+  font-size: 24px;
+  line-height: 45px;
+  font-weight: 300;
+}
+.header-subtitle {
+  margin-bottom: 43px;
+  font-size: 250px;
+  line-height: 230px;
+}
+
+.header-description {
+  margin-bottom: 61px;
+  font-size: 32px;
+  line-height: 50px;
+  width: 600px;
+  height: 200px;
+}
+.buy-wrapper {
+  display: flex;
+}
+.buy-link {
+  display: block;
+  width: 278px;
+  height: 82px;
+  background-color: #161515;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 32px;
+  line-height: 82px;
+  text-align: center;
+}
+.header-price {
+  width: 143px;
+  height: 82px;
+  background-color: #ffffff;
+  color: #272727;
+  text-decoration: none;
+  font-size: 32px;
+  line-height: 82px;
+  text-align: center;
+}
+
+.header-img {
+  display: block;
+  width: 408px;
+  height: 720px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.popular-title {
+  color: #000;
+
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 186%; /* 44.64px */
+}
+.models-title {
+  color: #000;
+
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 112.5%; /* 81px */
+  margin-bottom: 84;
+}
+.item-wrapper {
+  margin: 0 auto;
+}
+.item-img-wrapper {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 286px;
+  height: 410px;
+  background: url(<path-to-image>),
+    lightgray -67px 0px / 143.357% 100% no-repeat;
+  margin-bottom: 67px;
+}
+.item-title {
+  font-size: 32px;
+  line-height: 30px;
+  margin-bottom: 17px;
+  text-align: center;
+  font-weight: 400;
+}
+.item-description {
+  margin: 0 auto;
+  width: 531px;
+  height: 194px;
+  font-size: 32px;
+  line-height: 30px;
+  margin-bottom: 17px;
+  text-align: center;
+  font-weight: 300;
+}
+.product-description-wrapper {
+  margin: 0 auto;
+  width: 972px;
+  margin-bottom: 85px;
+  margin-top: 100px;
+}
+.product-description-lilte {
+  width: 972px;
+  height: 50px;
+  flex-shrink: 0;
+  color: var(--, #161515);
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 186%; /* 59.52px */
+  text-transform: capitalize;
+  margin-bottom: 49px;
+  text-decoration: underline;
+}
+.product-description {
+  margin: 0 auto;
+  width: 515px;
+  height: 260px;
+  flex-shrink: 0;
+  color: var(--, #161515);
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 170%; /* 40.8px */
+}
+.product-description-link {
+  color: #bb8b5d;
+}
